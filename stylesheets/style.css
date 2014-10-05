@@ -7,15 +7,20 @@ body {
 h1 {
   color: #fc99cc;
   text-align: center;
-  font-size: 80px;
+  font-size: 200px;
+  z-index: 2;
 }
 
-/* line 7, ../../src/sass/style.sass */
+/* line 8, ../../src/sass/style.sass */
 .doll {
+  position: fixed;
+  top: 0;
+  left: 0;
   width: 100%;
   margin: 0 auto;
+  z-index: -1;
 }
-/* line 10, ../../src/sass/style.sass */
+/* line 15, ../../src/sass/style.sass */
 .doll img {
   width: 100%;
   height: 100%;
